@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import os
-from google import generativeai as genai
+import google.generativeai as genai
 
 app = Flask(__name__)
 CORS(app)
@@ -40,7 +40,7 @@ def init():
             qrs_path = os.path.join("uploaded_files", qrs_file.filename)
             qrs_file.save(qrs_path)
             config_data["qrs_file_path"] = qrs_path
-
+        print("✅ Configuration enregistrée avec succès")
         return jsonify({"message": "Initialisation réussie", "status": "ready"}), 200
 
     except Exception as e:
