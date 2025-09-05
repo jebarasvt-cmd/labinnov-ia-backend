@@ -7,28 +7,32 @@ import google.generativeai as genai
 app = Flask(__name__)
 CORS(app)
 
-# Stockage minimal pour économiser la mémoire sur Render Free Tier
+# ======================
+# Configuration initiale
+# ======================
 config_data = {
-    "api_key": None,
+    "api_key": os.environ.get("GEMINI_API_KEY"),  # ✅ Chargée depuis Render
     "tps_file_path": None,
     "qrs_file_path": None
 }
 
 # ======================
-# 1️⃣ INIT — Configuration IA + Upload fichiers
+# 1️⃣ INIT — Upload fichiers
 # ======================
 @app.route("/init", methods=["POST"])
 def init():
     try:
-        api_key = request.form.get("api_key")
         tps_file = request.files.get("tps_file")
         qrs_file = request.files.get("qrs_file")
 
-        if not api_key or not tps_file:
-            return jsonify({"error": "Clé API et fichier TPs requis"}), 400
+        print("📩 /init appelé")
+        print("➡️ Clé API en mémoire :", bool(config_data["api_key"]))
+        print("➡️ Fichier TPs reçu :", tps_file.filename if tps_file else None)
 
-        # Stocker la clé API
-        config_data["api_key"] = api_key
+        if not config_data["api_key"]:
+            return jsonify({"error": "Clé API absente dans l'environnement"}), 400
+        if not tps_file:
+            return jsonify({"error": "Fichier TPs requis"}), 400
 
         # Sauvegarder les fichiers uploadés
         os.makedirs("uploaded_files", exist_ok=True)
@@ -40,10 +44,12 @@ def init():
             qrs_path = os.path.join("uploaded_files", qrs_file.filename)
             qrs_file.save(qrs_path)
             config_data["qrs_file_path"] = qrs_path
+
         print("✅ Configuration enregistrée avec succès")
         return jsonify({"message": "Initialisation réussie", "status": "ready"}), 200
 
     except Exception as e:
+        print("❌ Erreur /init :", str(e))
         return jsonify({"error": str(e)}), 500
 
 
@@ -62,7 +68,7 @@ def status():
 
 
 # ======================
-# 3️⃣ ASK — Génération avec ton prompt fixe
+# 3️⃣ ASK — Génération avec Gemini
 # ======================
 @app.route("/ask", methods=["POST"])
 def ask():
@@ -70,7 +76,7 @@ def ask():
         question = request.json.get("question")
 
         if not config_data["api_key"]:
-            return jsonify({"error": "Serveur non configuré"}), 400
+            return jsonify({"error": "Clé API manquante"}), 400
         if not config_data["tps_file_path"]:
             return jsonify({"error": "Aucun fichier TPs disponible"}), 400
 
@@ -78,11 +84,11 @@ def ask():
         with open(config_data["tps_file_path"], "r", encoding="utf-8") as f:
             tps_content = f.read()
 
-        # Initialiser Gemini uniquement ici
+        # Configurer Gemini
         genai.configure(api_key=config_data["api_key"])
-        model = genai.GenerativeModel("gemini-pro")
+        model = genai.GenerativeModel("gemini-1.5-flash")  # ⚡ Plus rapide
 
-        # 📌 PROMPT EXACT
+        # Prompt
         prompt = f"""
 Tu es LabInnov IA, un assistant éducatif en Sciences de la Vie et de la Terre (SVT).
 On t’a fourni un extrait de base de données JSON décrivant un TP, avec les champs :
@@ -99,37 +105,21 @@ Tâche :
   2. **Objectif**
   3. **Prérequis**
   4. **Matériel**
-  5. **Procédure expérimentale** (reprend et développe les étapes en phrases complètes et numérotées)
+  5. **Procédure expérimentale**
   6. **Résultats attendus**
-
-Règles :
-- Ne pas inventer de contenu absent des données.
-- Adapter le vocabulaire au niveau scolaire.
-- Écrire de manière claire, concise et motivante.
 
 Question de l’élève :
 {question}
-
-Format attendu (texte structuré) :
-
-**Titre :** ...
-**Objectif :** ...
-**Prérequis :** ...
-**Matériel :**
-- ...
-**Procédure expérimentale :**
-1. ...
-2. ...
-**Résultats attendus :**
-...
 """
 
-        # Envoyer le prompt à Gemini
+        print("📤 Envoi du prompt à Gemini Flash...")
         response = model.generate_content(prompt)
+        print("📥 Réponse reçue de Gemini Flash")
 
         return jsonify({"answer": response.text})
 
     except Exception as e:
+        print("❌ Erreur /ask :", str(e))
         return jsonify({"error": str(e)}), 500
 
 
@@ -138,7 +128,7 @@ Format attendu (texte structuré) :
 # ======================
 @app.route("/", methods=["GET"])
 def home():
-    return "✅ LabInnov IA Backend est en ligne sur Render"
+    return "✅ LabInnov IA Backend est en ligne sur Render (Gemini Flash)"
 
 
 # ======================
