@@ -1,6 +1,15 @@
-flask
-flask-cors
-numpy
-scikit-learn
-google-generativeai
-gunicorn
+# Framework web
+Flask>=2.3.2
+Flask-Cors>=4.0.0
+
+# API Google Gemini
+google-generativeai>=0.3.0
+
+# Gestion JSON
+ujson>=5.8.0
+
+# Déploiement sur Render (serveur WSGI)
+gunicorn>=21.2.0
+
+# Utilitaires divers
+requests>=2.31.0
