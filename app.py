@@ -143,21 +143,20 @@ Question de l’élève :
 Données disponibles :
 {tps_content}
 """
-  # Appel Gemini
+   # Appel Gemini
         response = model.generate_content(prompt)
         if not response or not hasattr(response, "text") or not response.text:
             return jsonify({"error": "Réponse vide de Gemini"}), 500
 
+        # ✅ Nettoyage : retirer tout "Protocole expérimental" présent au début
         import re
         response_text = response.text.strip()
+        response_text = re.sub(r"^\**\s*protocole\s+expérimental\s*\**\s*\n*", "", response_text, flags=re.IGNORECASE)
 
-        # Retirer toute occurrence du texte "Protocole expérimental" si Gemini l'ajoute
-        response_text = re.sub(r"\**\s*protocole\s+expérimental\s*\**", "", response_text, flags=re.IGNORECASE)
+        # Ajout unique de notre titre
+        final_answer = "**Protocole expérimental**\n\n" + response_text
 
-        # Nettoyer les lignes vides multiples
-        response_text = re.sub(r"\n{3,}", "\n\n", response_text).strip()
-
-        return jsonify({"answer": response_text})
+        return jsonify({"answer": final_answer})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
