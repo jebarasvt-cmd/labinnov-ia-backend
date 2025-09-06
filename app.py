@@ -122,31 +122,39 @@ def ask():
 Tu es LabInnov IA, un assistant éducatif en Sciences de la Vie et de la Terre (SVT).
 On t’a fourni un extrait de base de données JSON décrivant un TP.
 
-Ta tâche est de rédiger un **protocole expérimental complet** à destination des élèves,
-en respectant strictement le format Markdown suivant :
+Ta mission :
+- Transformer ces données brutes en un protocole expérimental clair, pédagogique et détaillé.
+- Reformuler chaque section pour qu’elle soit compréhensible par un élève.
+- Développer les étapes avec des phrases complètes qui expliquent le pourquoi et le comment.
+- Ajouter des consignes de sécurité ou de bonnes pratiques si pertinentes.
+- Utiliser un langage simple mais scientifique.
+- Ne jamais recopier mot pour mot le JSON, mais t'en inspirer.
 
-**Titre :** (reprendre exactement le champ "titre" du JSON)
+⚠️ Format Markdown obligatoire :
+**Titre :** (reprendre et reformuler le champ "titre")
 
-**Objectif :** (reprendre et reformuler clairement le champ "objectif")
+**Objectif :** (développer le champ "objectif" en expliquant l’importance de ce TP)
 
 **Prérequis :**
-- (lister chaque élément du champ "prérequis" sur une nouvelle ligne)
+- (reformuler chaque prérequis en phrase complète)
 
 **Matériel :**
-- (lister chaque élément du champ "matériel" avec un tiret `-`)
+- (lister le matériel, ajouter la fonction ou l’usage de chaque élément entre parenthèses)
 
 **Procédure expérimentale :**
-1. (reprendre et développer chaque étape du champ "étapes" sous forme numérotée)
+1. (reprendre chaque étape et la développer en une ou deux phrases complètes, expliquer le but)
+2. ...
+3. ...
 
 **Résultats attendus :**
-- (reprendre le contenu du champ "résultats_attendus", en le scindant en plusieurs puces si nécessaire)
+- (expliquer clairement ce que l’élève doit observer et ce que cela prouve)
 
-⚠️ Règles obligatoires :
-- Utiliser toujours des retours à la ligne entre les sections.
-- Ne pas écrire tout en une seule ligne.
-- Respecter la mise en forme Markdown (titres en gras, listes à puces `-`, étapes numérotées `1., 2., 3.`).
-- Ne pas ajouter de texte inutile.
-- Ne pas répéter "Protocole expérimental", commencer directement par **Titre :**.
+⚠️ Règles :
+- Minimum 3 phrases complètes par étape.
+- Présentation structurée avec titres, listes à puces et numéros.
+- Ne pas écrire "Protocole expérimental".
+- Respecter la mise en forme Markdown.
+- Toujours commencer par **Titre :**.
 
 Question de l’élève :
 {question}
@@ -154,6 +162,7 @@ Question de l’élève :
 Données disponibles (JSON) :
 {tps_content}
 """
+
 
    # Appel Gemini
         response = model.generate_content(prompt)
