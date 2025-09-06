@@ -123,7 +123,6 @@ Tu es LabInnov IA, un assistant éducatif en Sciences de la Vie et de la Terre (
 On t’a fourni un extrait de base de données JSON décrivant un TP.
 
 ⚠️ Format de réponse OBLIGATOIRE (Markdown) :
-**Protocole expérimental**
 
 **Titre :** ...
 **Objectif :** ...
@@ -144,22 +143,24 @@ Question de l’élève :
 Données disponibles :
 {tps_content}
 """
+  # Appel Gemini
+        response = model.generate_content(prompt)
+        if not response or not hasattr(response, "text") or not response.text:
+            return jsonify({"error": "Réponse vide de Gemini"}), 500
 
-        try:
-            response = model.generate_content(prompt)
-            if not response or not hasattr(response, "text") or not response.text:
-                return jsonify({"error": "Réponse vide de Gemini"}), 500
+        import re
+        response_text = response.text.strip()
 
-            answer = "**Protocole expérimental**\n\n" + response.text.strip()
-            return jsonify({"answer": answer})
+        # Retirer toute occurrence du texte "Protocole expérimental" si Gemini l'ajoute
+        response_text = re.sub(r"\**\s*protocole\s+expérimental\s*\**", "", response_text, flags=re.IGNORECASE)
 
-        except Exception as gemini_error:
-            print("❌ Erreur Gemini :", str(gemini_error))
-            return jsonify({"error": f"Erreur Gemini : {str(gemini_error)}"}), 500
+        # Nettoyer les lignes vides multiples
+        response_text = re.sub(r"\n{3,}", "\n\n", response_text).strip()
+
+        return jsonify({"answer": response_text})
 
     except Exception as e:
-        print("❌ Erreur générale :", str(e))
-        return jsonify({"error": f"Erreur générale : {str(e)}"}), 500
+        return jsonify({"error": str(e)}), 500
 
 
 # ======================
