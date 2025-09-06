@@ -95,25 +95,34 @@ def ask():
     try:
         question = request.json.get("question")
 
-        if not os.environ.get("API_KEY"):
+        # Vérif API Key
+        api_key = os.environ.get("API_KEY")
+        if not api_key:
             return jsonify({"error": "Clé API manquante dans les variables d'environnement"}), 500
-        if not config_data.get("tps_file_path"):
+
+        # Vérif fichier TPs
+        tps_path = config_data.get("tps_file_path")
+        if not tps_path or not os.path.exists(tps_path):
             return jsonify({"error": "Aucun fichier TPs disponible"}), 400
 
-        # Charger le fichier TPs
-        with open(config_data["tps_file_path"], "r", encoding="utf-8") as f:
+        # Lire fichier TPs
+        with open(tps_path, "r", encoding="utf-8") as f:
             tps_content = f.read()
 
-        # Initialiser Gemini avec la clé depuis l'environnement
-        genai.configure(api_key=os.environ.get("API_KEY"))
-        model = genai.GenerativeModel("gemini-pro")
+        # Debug infos
+        print("✅ API Key trouvée :", api_key[:6] + "********")
+        print("✅ Fichier TPs trouvé :", tps_path)
+        print("📄 Taille du fichier :", len(tps_content), "caractères")
+
+        # Config Gemini
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel("gemini-1.5-flash")
 
         prompt = f"""
 Tu es LabInnov IA, un assistant éducatif en Sciences de la Vie et de la Terre (SVT).
 On t’a fourni un extrait de base de données JSON décrivant un TP.
 
-⚠️ Format de réponse OBLIGATOIRE (respecter les retours à la ligne et la mise en forme Markdown) :
-
+⚠️ Format de réponse OBLIGATOIRE (Markdown) :
 **Protocole expérimental**
 
 **Titre :** ...
@@ -136,17 +145,21 @@ Données disponibles :
 {tps_content}
 """
 
-        response = model.generate_content(prompt)
+        try:
+            response = model.generate_content(prompt)
+            if not response or not hasattr(response, "text") or not response.text:
+                return jsonify({"error": "Réponse vide de Gemini"}), 500
 
-        # Forcer le titre en gras au début
-        answer = "**Protocole expérimental**\n\n" + response.text.strip()
+            answer = "**Protocole expérimental**\n\n" + response.text.strip()
+            return jsonify({"answer": answer})
 
-        return jsonify({"answer": answer})
+        except Exception as gemini_error:
+            print("❌ Erreur Gemini :", str(gemini_error))
+            return jsonify({"error": f"Erreur Gemini : {str(gemini_error)}"}), 500
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
+        print("❌ Erreur générale :", str(e))
+        return jsonify({"error": f"Erreur générale : {str(e)}"}), 500
 
 
 # ======================
