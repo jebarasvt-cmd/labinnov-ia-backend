@@ -122,27 +122,39 @@ def ask():
 Tu es LabInnov IA, un assistant éducatif en Sciences de la Vie et de la Terre (SVT).
 On t’a fourni un extrait de base de données JSON décrivant un TP.
 
-⚠️ Format de réponse OBLIGATOIRE (Markdown) :
+Ta tâche est de rédiger un **protocole expérimental complet** à destination des élèves,
+en respectant strictement le format Markdown suivant :
 
-**Titre :** ...
-**Objectif :** ...
-**Prérequis :** ...
+**Titre :** (reprendre exactement le champ "titre" du JSON)
+
+**Objectif :** (reprendre et reformuler clairement le champ "objectif")
+
+**Prérequis :**
+- (lister chaque élément du champ "prérequis" sur une nouvelle ligne)
+
 **Matériel :**
-- ...
-- ...
+- (lister chaque élément du champ "matériel" avec un tiret `-`)
+
 **Procédure expérimentale :**
-1. ...
-2. ...
+1. (reprendre et développer chaque étape du champ "étapes" sous forme numérotée)
+
 **Résultats attendus :**
-- ...
-- ...
+- (reprendre le contenu du champ "résultats_attendus", en le scindant en plusieurs puces si nécessaire)
+
+⚠️ Règles obligatoires :
+- Utiliser toujours des retours à la ligne entre les sections.
+- Ne pas écrire tout en une seule ligne.
+- Respecter la mise en forme Markdown (titres en gras, listes à puces `-`, étapes numérotées `1., 2., 3.`).
+- Ne pas ajouter de texte inutile.
+- Ne pas répéter "Protocole expérimental", commencer directement par **Titre :**.
 
 Question de l’élève :
 {question}
 
-Données disponibles :
+Données disponibles (JSON) :
 {tps_content}
 """
+
    # Appel Gemini
         response = model.generate_content(prompt)
         if not response or not hasattr(response, "text") or not response.text:
