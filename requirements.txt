@@ -5,13 +5,14 @@ Flask-Cors>=4.0.0
 # API Google Gemini
 google-generativeai>=0.3.0
 
-# Gestion JSON
+# JSON rapide
 ujson>=5.8.0
 
-# Déploiement sur Render (serveur WSGI)
+# Serveur WSGI pour Render
 gunicorn>=21.2.0
 
-# Utilitaires divers
+# Requêtes HTTP
 requests>=2.31.0
 
-numpy
+# Calcul vectoriel pour similarité cosinus
+numpy>=1.26.0
