@@ -13,3 +13,5 @@ gunicorn>=21.2.0
 
 # Utilitaires divers
 requests>=2.31.0
+
+numpy
