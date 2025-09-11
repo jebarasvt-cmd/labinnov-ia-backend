@@ -1,0 +1,482 @@
+[{
+  "titre": "Les composantes du milieu naturel",
+  "objectif": "Identifier les composantes vivantes et non vivantes d’un milieu naturel donné.",
+  "prérequis": [
+    "Notion d’être vivant",
+    "Observation d’un milieu naturel",
+    "Différence entre vivant et non-vivant"
+  ],
+  "matériel": [
+    "Photographies de différents milieux naturels",
+    "Schéma d’une mare en été",
+    "Tableau d’observation",
+    "Crayons et gomme"
+  ],
+  "étapes": [
+    "Observer les images de différents milieux naturels (forêt, désert, littoral, etc.).",
+    "Identifier le type de milieu pour chaque image.",
+    "Analyser un schéma représentant une mare en été et distinguer les éléments vivants (animaux, végétaux) des éléments non vivants (eau, lumière, température, sol…).",
+    "Compléter un tableau en classant les composants du milieu.",
+    "Répondre aux questions sur les caractéristiques des êtres vivants et la définition d’un milieu naturel."
+  ],
+  "résultats_attendus": "Distinction claire entre êtres vivants et éléments non vivants ; identification correcte de différents milieux naturels."
+},
+{
+  "titre": "Outils utilisés pour l’étude d’un milieu naturel",
+  "objectif": "Découvrir les instruments et outils permettant d’observer et d’analyser un milieu naturel.",
+  "prérequis": [
+    "Notion de milieu naturel",
+    "Mesure de la température, de l’humidité et de la lumière"
+  ],
+  "matériel": [
+    "Thermomètre",
+    "Hygromètre",
+    "Luxmètre",
+    "Filet troubleau",
+    "Filet fauchoir",
+    "Boîte en carton",
+    "Bocal",
+    "Boussole",
+    "Carte",
+    "Jumelles"
+  ],
+  "étapes": [
+    "Observer les instruments de mesure : associer chaque instrument à son rôle (ex. : thermomètre → température).",
+    "Compléter un tableau indiquant l’unité de mesure pour chaque instrument.",
+    "Observer les outils utilisés pour la capture ou l’observation d’êtres vivants dans un milieu naturel.",
+    "Associer chaque outil à son utilité (ex. : filet fauchoir pour insectes, jumelles pour oiseaux)."
+  ],
+  "résultats_attendus": "Maîtrise des rôles et des unités de mesure associées aux instruments ; compréhension de l’usage des outils d’observation d’un milieu."
+},
+{
+  "titre": "Le sol : un milieu de vie pour les êtres vivants",
+  "objectif": "Mettre en évidence la diversité des êtres vivants présents dans le sol et comprendre leur rôle dans l’écosystème.",
+  "prérequis": [
+    "Notion d’écosystème",
+    "Composantes vivantes et non vivantes d’un milieu"
+  ],
+  "matériel": [
+    "Échantillon de sol",
+    "Loupe binoculaire ou microscope",
+    "Tamis",
+    "Alcool",
+    "Ampoule électrique",
+    "Appareil de Berlèse",
+    "Boîtes de Pétri",
+    "Lames et lamelles"
+  ],
+  "étapes": [
+    "Observer la coupe d’un sol et identifier les différentes couches (horizons).",
+    "Prélever un échantillon de sol et l’analyser à l’aide d’un tamis.",
+    "Utiliser l’appareil de Berlèse pour extraire les petits animaux du sol.",
+    "Observer les êtres vivants (bactéries, champignons, vers, insectes) au microscope.",
+    "Émettre des hypothèses sur le rôle des outils utilisés (ampoule, tamis, alcool) dans l’extraction."
+  ],
+  "résultats_attendus": "Identification d’une diversité d’êtres vivants dans le sol ; confirmation que le sol est un milieu de vie riche et organisé."
+},
+{
+  "titre": "La cellule : unité de structure de tous les êtres vivants",
+  "objectif": "Observer différents types de cellules au microscope et identifier leurs constituants fondamentaux.",
+  "prérequis": [
+    "Notion d’être vivant",
+    "Utilisation d’un microscope optique",
+    "Différence entre organisme unicellulaire et pluricellulaire"
+  ],
+  "matériel": [
+    "Microscope optique",
+    "Préparations microscopiques (peau d’oignon, feuille d’élodée, cellule buccale, paramécie...)",
+    "Colorants (eau iodée, bleu de méthylène)",
+    "Lames et lamelles",
+    "Pipettes, pince fine, lame de rasoir (avec précaution)"
+  ],
+  "étapes": [
+    "Préparer une lame de peau d’oignon, la colorer à l’eau iodée et l’observer au microscope.",
+    "Observer les cellules végétales (ex : élodée) et schématiser ce que l’on voit.",
+    "Prélever une cellule buccale avec un coton-tige, colorer au bleu de méthylène, observer au microscope.",
+    "Observer une cellule unicellulaire (ex : paramécie) si disponible.",
+    "Identifier les structures fondamentales : membrane, noyau, cytoplasme.",
+    "Comparer les cellules animales et végétales."
+  ],
+  "résultats_attendus": "Observation de cellules végétales, animales et unicellulaires ; schématisation correcte des constituants cellulaires."
+},
+{
+  "titre": "Le régime alimentaire omnivore chez l’homme",
+  "objectif": "Identifier les caractéristiques anatomiques de l’être humain liées à son régime alimentaire omnivore.",
+  "prérequis": [
+    "Notion de régime alimentaire",
+    "Différents types de dents",
+    "Fonction de l’appareil digestif"
+  ],
+  "matériel": [
+    "Schéma de la denture humaine (adulte et enfant)",
+    "Schéma des muscles masticateurs et de la mâchoire",
+    "Schéma de l’appareil digestif humain",
+    "Tableau pour consigner les rôles des organes digestifs",
+    "Calculatrice (pour les longueurs et durées)"
+  ],
+  "étapes": [
+    "Observer les différentes dents de l’adulte et de l’enfant, les nommer et identifier leur rôle (incisives, canines, molaires).",
+    "Déterminer la formule dentaire humaine.",
+    "Étudier les muscles masticateurs et les articulations impliquées dans la mastication.",
+    "Identifier et nommer les organes du tube digestif sur un schéma.",
+    "Compléter un tableau décrivant la fonction de chaque organe.",
+    "Calculer la durée de la digestion et la longueur du tube digestif.",
+    "Définir la digestion à partir des observations."
+  ],
+  "résultats_attendus": "Identification des adaptations dentaires, musculaires et digestives à un régime omnivore (capacité à mâcher et digérer différents types d’aliments)."
+},
+{
+  "titre": "Le régime alimentaire herbivore chez la vache",
+  "objectif": "Identifier les caractéristiques anatomiques et physiologiques de la vache adaptées à un régime alimentaire herbivore.",
+  "prérequis": [
+    "Notion de régime alimentaire",
+    "Fonction de la digestion",
+    "Types de dents et articulation de la mâchoire"
+  ],
+  "matériel": [
+    "Schéma du crâne et des dents de la vache",
+    "Illustration du condyle d’articulation",
+    "Schéma du tube digestif de la vache",
+    "Tableau de comparaison des dents",
+    "Images ou animation de la rumination"
+  ],
+  "étapes": [
+    "Observer la forme du crâne de la vache et de ses dents.",
+    "Légender les structures (incisives inférieures, molaires, condyle d’articulation).",
+    "Décrire les types de dents et leur rôle dans la mastication des végétaux.",
+    "Déterminer la formule dentaire de la vache.",
+    "Étudier le schéma de l’estomac de la vache (rumen, réseau, feuillet, caillette).",
+    "Expliquer le trajet de l’herbe pendant la digestion et la rumination."
+  ],
+  "résultats_attendus": "Identification des dents plates adaptées au broyage, articulation favorisant les mouvements latéraux, tube digestif long avec estomac compartimenté pour digérer la cellulose."
+},
+{
+  "titre": "Le régime alimentaire carnivore chez le chat",
+  "objectif": "Identifier les adaptations anatomiques du chat liées à son régime carnivore.",
+  "prérequis": [
+    "Notion de régime alimentaire",
+    "Fonction de la denture et du tube digestif",
+    "Comparaison entre herbivores, omnivores et carnivores"
+  ],
+  "matériel": [
+    "Schéma du crâne et des dents du chat",
+    "Modèle ou image du condyle d’articulation",
+    "Schéma du tube digestif du chat",
+    "Tableau comparatif (chat vs vache)",
+    "Lames dentaires ou images de canines/molaires"
+  ],
+  "étapes": [
+    "Identifier les types de dents du chat (canines, incisives, molaires) et leurs rôles.",
+    "Décrire la forme du condyle d’articulation de la mâchoire et les mouvements qu’il permet.",
+    "Réaliser ou observer un schéma d’une canine et d’une molaire de carnivore.",
+    "Donner la formule dentaire du chat adulte.",
+    "Étudier le schéma de l’estomac et du tube digestif du chat.",
+    "Comparer la longueur du tube digestif du chat avec celui de la vache.",
+    "Compléter un tableau comparatif entre dentition d’un carnivore et d’un herbivore."
+  ],
+  "résultats_attendus": "Canines longues et pointues pour saisir/déchirer, molaires tranchantes, mâchoire favorisant le mouvement vertical, tube digestif court adapté à la viande."
+},
+{
+  "titre": "Représentation du relief et réalisation d’un profil topographique",
+  "objectif": "Comprendre la représentation du relief sur une carte topographique à l’aide des courbes de niveau et savoir construire un profil topographique.",
+  "prérequis": [
+    "Lecture de carte topographique",
+    "Notion de courbe de niveau",
+    "Échelle et orientation"
+  ],
+  "matériel": [
+    "Carte topographique avec courbes de niveau",
+    "Papier millimétré",
+    "Règle",
+    "Crayon, gomme",
+    "Fiche des étapes de réalisation du profil"
+  ],
+  "étapes": [
+    "Identifier les courbes de niveau sur une carte et leur signification (altitude, courbes fermées).",
+    "Définir l’équidistance entre deux courbes de niveau.",
+    "Tracer un segment AB sur la carte reliant deux points du relief.",
+    "Relever les altitudes des points d’intersection entre le segment AB et les courbes de niveau.",
+    "Reproduire ces altitudes sur un papier millimétré en respectant l’échelle verticale.",
+    "Relier les points pour tracer le profil topographique et y indiquer les éléments du paysage (oued, colline, pente...)."
+  ],
+  "résultats_attendus": "Lecture correcte des courbes de niveau, compréhension de l’altitude et de la pente, réalisation précise d’un profil topographique avec légende et échelles."
+},
+{
+    "titre": "Identification des constituants des aliments",
+    "objectif": "Analyser différents aliments pour y identifier les principaux nutriments.",
+    "prérequis": [
+      "Groupes d’aliments",
+      "Nutriments (glucides, lipides, protides)"
+    ],
+    "matériel": [
+      "Tableaux de composition nutritionnelle (étiquettes ou documents)",
+      "Lentilles, œufs, riz, pain, yaourt",
+      "Fiche de tableau à remplir"
+    ],
+    "étapes": [
+      "Observer les étiquettes de différents aliments courants.",
+      "Rechercher les quantités de glucides, protéines et lipides.",
+      "Compléter un tableau comparatif.",
+      "Classer les aliments selon leur composition majoritaire.",
+      "Conclure sur leur rôle dans l’alimentation."
+    ],
+    "résultats_attendus": "Les aliments ont des compositions variées ; certains sont riches en protéines, d’autres en glucides ou lipides."
+  },
+  {
+    "titre": "Étude expérimentale de la digestion",
+    "objectif": "Étudier les transformations des aliments par les sucs digestifs (salivaire, gastrique, pancréatique).",
+    "prérequis": [
+      "Notion d'enzyme",
+      "Étapes de la digestion"
+    ],
+    "matériel": [
+      "Amidon (fécule), pain",
+      "Salive, suc gastrique simulé (HCl + pepsine), suc pancréatique",
+      "Réactifs d’identification (iode, Fehling)",
+      "Tube à essai, bain-marie"
+    ],
+    "étapes": [
+      "Mettre l’amidon avec de la salive → test à l’iode avant/après.",
+      "Tester la digestion des protéines par la pepsine en milieu acide.",
+      "Observer la transformation des lipides avec le suc pancréatique.",
+      "Tester les produits de digestion (glucose, acides aminés).",
+      "Conclure sur le rôle des enzymes dans la digestion."
+    ],
+    "résultats_attendus": "Les aliments sont transformés en nutriments grâce à des enzymes spécifiques."
+  },
+  {
+    "titre": "Absorption intestinale des nutriments",
+    "objectif": "Comprendre comment les nutriments issus de la digestion sont absorbés au niveau de l’intestin grêle.",
+    "prérequis": [
+      "Structure de l’intestin",
+      "Notion de nutriment"
+    ],
+    "matériel": [
+      "Schéma de coupe de l’intestin grêle",
+      "Modèle 3D ou image des villosités",
+      "Animation de diffusion à travers une membrane",
+      "Fiche à compléter"
+    ],
+    "étapes": [
+      "Observer un schéma ou modèle de villosité intestinale.",
+      "Repérer les capillaires sanguins dans les villosités.",
+      "Étudier la surface d’absorption (replis, microvillosités).",
+      "Comprendre le rôle du sang et de la lymphe dans le transport.",
+      "Simuler la diffusion des nutriments à travers une membrane."
+    ],
+    "résultats_attendus": "Les nutriments passent par les villosités pour rejoindre la circulation sanguine."
+  },
+  {
+    "titre": "Rôles des aliments et groupes alimentaires",
+    "objectif": "Identifier les différents groupes d’aliments et comprendre leur rôle dans le fonctionnement du corps humain.",
+    "prérequis": [
+      "Nutriments de base",
+      "Structure corporelle humaine"
+    ],
+    "matériel": [
+      "Schéma de composition du corps humain",
+      "Tableaux de groupes alimentaires",
+      "Fiches nutritionnelles d’étiquettes d’aliments",
+      "Fiche de classification"
+    ],
+    "étapes": [
+      "Observer la composition biochimique du corps humain.",
+      "Analyser les nutriments nécessaires à sa constitution.",
+      "Classer différents aliments dans les groupes : constructeurs, énergétiques, protecteurs.",
+      "Associer chaque groupe à ses fonctions dans l’organisme."
+    ],
+    "résultats_attendus": "Compréhension que chaque groupe d’aliment répond à un besoin biologique précis : énergie, construction, protection."
+  },
+  {
+    "titre": "Déséquilibres alimentaires et carences",
+    "objectif": "Comprendre les conséquences des déséquilibres alimentaires sur la santé et identifier les carences nutritionnelles.",
+    "prérequis": [
+      "Besoin énergétique",
+      "Nutrition équilibrée"
+    ],
+    "matériel": [
+      "Photos d’individus carencés",
+      "Tableaux symptômes/carences",
+      "Études de cas (menus déséquilibrés)",
+      "Fiche diagnostic"
+    ],
+    "étapes": [
+      "Étudier des cas de carences : kwashiorkor, scorbut, anémie.",
+      "Associer les symptômes aux nutriments manquants.",
+      "Analyser des menus déséquilibrés.",
+      "Déduire les causes nutritionnelles des maladies.",
+      "Formuler des recommandations simples."
+    ],
+    "résultats_attendus": "Lien établi entre nutrition insuffisante ou déséquilibrée et certaines pathologies."
+  },
+  {
+    "titre": "Calcul et analyse d’une ration alimentaire équilibrée",
+    "objectif": "Évaluer si un menu quotidien répond aux besoins énergétiques et nutritionnels d’un adolescent.",
+    "prérequis": [
+      "Besoins journaliers en kcal",
+      "Énergie apportée par les nutriments"
+    ],
+    "matériel": [
+      "Tableaux de valeur énergétique (glucides, lipides, protéines)",
+      "Exemples de menus journaliers",
+      "Calculatrice",
+      "Fiche de synthèse"
+    ],
+    "étapes": [
+      "Calculer la valeur énergétique totale d’un menu donné.",
+      "Comparer avec les besoins d’un adolescent (2600–3000 kcal).",
+      "Analyser la répartition des macronutriments.",
+      "Proposer des améliorations en cas de déséquilibre.",
+      "Conclure sur les principes d’une alimentation équilibrée."
+    ],
+    "résultats_attendus": "Capacité à évaluer un menu et à comprendre les critères d’un repas équilibré."
+},
+{
+  "titre": "Mise en évidence du glucose dans les aliments",
+  "objectif": "Identifier expérimentalement la présence de glucose dans différents aliments.",
+  "prérequis": [
+    "Notion de nutriment",
+    "Composition chimique des aliments",
+    "Rôle du glucose dans l’alimentation"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Réactif : liqueur de Fehling",
+    "Tubes à essai",
+    "Pipettes",
+    "Bec Bunsen pour le chauffage"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Ajouter le réactif : liqueur de Fehling.",
+    "Chauffer le tube à l’aide d’un bec Bunsen pendant quelques minutes.",
+    "Observer la formation éventuelle d’un précipité rouge brique indiquant la présence de glucose."
+  ],
+  "résultats_attendus": "Les échantillons contenant du glucose donnent un précipité rouge brique après chauffage avec le réactif de Fehling, confirmant la présence de sucre réducteur."
+},
+{
+  "titre": "Mise en évidence de l’amidon dans les aliments",
+  "objectif": "Identifier expérimentalement la présence d’amidon dans différents aliments.",
+  "prérequis": [
+    "Notion de nutriment",
+    "Composition chimique des aliments",
+    "Rôle de l’amidon dans l’alimentation"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Réactif :Eau iodée",
+    "Tubes à essai",
+    "Pipettes"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Ajouter l'eau iodée.",
+    "Observer le changement éventuel de couleur (coloration bleu-violette)."
+  ],
+  "résultats_attendus": "Les échantillons contenant de l’amidon prennent une coloration bleu-violette après ajout d’eau iodée, confirmant la présence de l'amidon complexe."
+},
+{
+  "titre": "Mise en évidence des protéines dans les aliments",
+  "objectif": "Identifier expérimentalement la présence de protéines dans différents aliments.",
+  "prérequis": [
+    "Notion de nutriment",
+    "Composition chimique des aliments",
+    "Rôle des protéines dans l’alimentation"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Réactif : acide nitrique",
+    "Tubes à essai",
+    "Pipettes"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Ajouter le réactif de Biuret.",
+    "Observer le changement éventuel de couleur (coloration jaune)."
+  ],
+  "résultats_attendus": "Les échantillons contenant des protéines prennent une coloration jaune après ajout de l'acide nitrique, confirmant la présence de ces macromolécules."
+},
+{
+  "titre": "Mise en évidence des ions calcium dans les aliments",
+  "objectif": "Identifier expérimentalement la présence d’ions calcium dans différents aliments.",
+  "prérequis": [
+    "Notion de sels minéraux",
+    "Rôle du calcium dans l’organisme"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Réactif : Oxalate d’ammonium",
+    "Tubes à essai",
+    "Pipettes"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Ajouter l’oxalate d’ammonium.",
+    "Observer la formation éventuelle d’un précipité blanc."
+  ],
+  "résultats_attendus": "Les échantillons contenant des ions calcium produisent un précipité blanc après ajout d’oxalate d’ammonium, confirmant leur présence."
+},
+{
+  "titre": "Mise en évidence des ions chlorure dans les aliments",
+  "objectif": "Identifier expérimentalement la présence d’ions chlorure dans différents aliments.",
+  "prérequis": [
+    "Notion de sels minéraux",
+    "Rôle du chlorure dans l’organisme"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Réactif : Nitrate d’argent",
+    "Tubes à essai",
+    "Pipettes"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Ajouter le nitrate d’argent.",
+    "Observer la formation éventuelle d’un précipité blanc qui noircit à la lumière."
+  ],
+  "résultats_attendus": "Les échantillons contenant des ions chlorure produisent un précipité blanc après ajout de nitrate d’argent, précipité qui noircit à la lumière, confirmant leur présence."
+},
+{
+  "titre": "Mise en évidence de l’eau dans les aliments",
+  "objectif": "Identifier expérimentalement la présence d’eau dans différents aliments.",
+  "prérequis": [
+    "Notion de constituants des aliments",
+    "Rôle de l’eau dans l’organisme"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Tube à essai",
+    "Bec Bunsen"
+  ],
+  "étapes": [
+    "Verser un échantillon liquide (lait ou filtrat de pain) dans un tube à essai.",
+    "Chauffer doucement le tube à l’aide d’un bec Bunsen.",
+    "Observer la formation éventuelle de goutlettes d'eau sur les parois du tube."
+  ],
+  "résultats_attendus": "La formation des goutlettes d'eau sur les parois du tube indique la présence d’eau dans l’aliment."
+},
+{
+  "titre": "Mise en évidence des lipides dans les aliments",
+  "objectif": "Identifier expérimentalement la présence de lipides dans différents aliments.",
+  "prérequis": [
+    "Notion de nutriment",
+    "Rôle des lipides dans l’alimentation"
+  ],
+  "matériel": [
+    "Aliments à tester : lait et filtrat de pain",
+    "Papier filtre ou papier buvard"
+  ],
+  "étapes": [
+    "Déposer quelques gouttes de l’échantillon (lait ou filtrat de pain) sur un morceau de papier filtre.",
+    "Laisser sécher à l’air libre quelques minutes.",
+    "Observer l’apparition éventuelle d’une tache translucide."
+  ],
+  "résultats_attendus": "La présence d’une tache translucide sur le papier indique la présence de lipides dans l’aliment."
+}
+
+
+
+
+
+
+]

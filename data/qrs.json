@@ -1,0 +1,575 @@
+[
+  {
+    "question": "Quel réactif permet de mettre en évidence les protéines ?",
+    "réponse": "Le réactif utilisé est l'acide nitrique."
+  },
+  {
+    "question": "Quel aliment est le plus riche en protéines dans ton tableau ?",
+    "réponse": "Par exemple, les œufs ou les lentilles selon les données analysées."
+  },
+  {
+    "question": "Que devient l’amidon après digestion dans la bouche ?",
+    "réponse": "Il est transformé en maltose puis en glucose grâce à l’amylase salivaire."
+  },
+  {
+    "question": "Quel est l’intérêt des microvillosités ?",
+    "réponse": "Elles augmentent la surface d’absorption pour capter plus de nutriments."
+  },
+  {
+    "question": "À quel groupe appartient le lait ?",
+    "réponse": "Il appartient au groupe des constructeurs car il contient des protéines et du calcium."
+  },
+  {
+    "question": "Pourquoi un enfant souffrant de kwashiorkor a-t-il un ventre gonflé ?",
+    "réponse": "Parce qu’il manque de protéines nécessaires au maintien des tissus corporels."
+  },
+  {
+    "question": "Pourquoi faut-il répartir les apports sur trois repas ?",
+    "réponse": "Pour éviter les pics de faim et assurer un apport continu d’énergie et de nutriments."
+  },
+  {
+    "question": "Pourquoi l’O₂ passe-t-il des alvéoles vers le sang ?",
+    "réponse": "Parce que sa pression est plus élevée dans l’air alvéolaire que dans le sang entrant."
+  },
+  {
+    "question": "Pourquoi le flacon A se trouble et pas le flacon B ?",
+    "réponse": "Parce que le muscle vivant rejette du CO₂, qui trouble l’eau de chaux."
+  },
+  {
+    "question": "Pourquoi la respiration s’accélère pendant un effort ?",
+    "réponse": "Pour fournir plus d’O₂ aux cellules musculaires qui en ont besoin pour produire de l’énergie."
+  },
+  {
+    "question": "Quelle cellule est la plus abondante dans le sang ?",
+    "réponse": "Les globules rouges (hématies)."
+  },
+  {
+    "question": "Pourquoi l’oxygène est-il transporté principalement par l’hémoglobine ?",
+    "réponse": "Parce qu’elle permet de le fixer temporairement et de le libérer au niveau des tissus."
+  },
+  {
+    "question": "Pourquoi le CO₂ est-il transporté sous différentes formes ?",
+    "réponse": "Pour optimiser son élimination vers les poumons tout en régulant le pH du sang."
+  },
+  {
+    "question": "Pourquoi les muscles fonctionnent-ils par paire ?",
+    "réponse": "Parce qu’un muscle seul ne peut qu’attirer l’os ; il faut un muscle opposé pour produire le mouvement inverse."
+  },
+  {
+    "question": "Quel est le rôle des striations visibles dans les fibres musculaires ?",
+    "réponse": "Elles correspondent à l’organisation des myofibrilles, responsables de la contraction."
+  },
+  {
+    "question": "Pourquoi le muscle fatigue-t-il lors d’un effort prolongé ?",
+    "réponse": "Parce que ses réserves en glucose et en oxygène diminuent, ce qui limite la production d’énergie."
+  },
+  {
+    "question": "Pourquoi ne peut-on pas observer les virus au microscope optique ?",
+    "réponse": "Parce qu’ils sont trop petits, leur taille est inférieure à la résolution de ce microscope."
+  },
+  {
+    "question": "Pourquoi une petite contamination peut-elle devenir dangereuse ?",
+    "réponse": "Parce que la multiplication rapide peut conduire à des milliards de bactéries en quelques heures."
+  },
+  {
+    "question": "Quel est l’intérêt d’une capsule pour une bactérie ?",
+    "réponse": "Elle la protège de la phagocytose par les globules blancs."
+  },
+  {
+    "question": "Pourquoi dit-on qu’un virus est un parasite intracellulaire strict ?",
+    "réponse": "Parce qu’il ne peut se multiplier qu’à l’intérieur d’une cellule vivante qu’il détourne à son profit."
+  },
+  {
+    "question": "Qu’est-ce que la phagocytose ?",
+    "réponse": "C’est l’ingestion puis la destruction d’un microbe par un globule blanc."
+  },
+  {
+    "question": "Pourquoi dit-on que cette réponse est spécifique ?",
+    "réponse": "Parce que chaque lymphocyte reconnaît un seul antigène donné."
+  },
+  {
+    "question": "Pourquoi le rappel vaccinal est-il plus efficace ?",
+    "réponse": "Parce que le corps possède déjà des lymphocytes mémoire prêts à réagir rapidement."
+  },
+  {
+    "question": "Dans quel cas utilise-t-on une sérothérapie plutôt qu’un vaccin ?",
+    "réponse": "Quand l’infection est déjà déclarée (ex : morsure de serpent, tétanos)."
+  },
+  {
+    "question": "Pourquoi l’allergie apparaît-elle si rapidement ?",
+    "réponse": "Parce que les IgE et les mastocytes sont déjà sensibilisés et réagissent immédiatement à l’allergène."
+  },
+  {
+    "question": "Pourquoi une personne séropositive n’est-elle pas toujours malade ?",
+    "réponse": "Car le virus peut rester latent ; la maladie (SIDA) apparaît lorsque les T4 chutent trop."
+  },
+  {
+    "question": "Pourquoi le groupe O- est-il donneur universel ?",
+    "réponse": "Parce qu’il n’a aucun antigène à la surface des globules rouges."
+  },
+  {
+    "question": "Comment les racines absorbent-elles l’eau ?",
+    "réponse": "Par capillarité à travers les poils absorbants présents sur les racines."
+  },
+  {
+    "question": "Quel est le rôle de la tige dans la plante ?",
+    "réponse": "Elle transporte l’eau et les sels minéraux des racines vers les feuilles, et les sucres vers les organes de réserve."
+  },
+  {
+    "question": "Pourquoi la feuille est-elle verte ?",
+    "réponse": "À cause de la présence de chlorophylle, un pigment situé dans les chloroplastes."
+  },
+  {
+    "question": "Comment prouver que la photosynthèse produit du dioxygène ?",
+    "réponse": "En observant la libération de bulles de gaz par une plante aquatique exposée à la lumière."
+  },
+  {
+    "question": "Quelle est la conséquence d’une absence de lumière sur une plante ?",
+    "réponse": "Elle ne peut pas réaliser la photosynthèse et finit par dépérir."
+  },
+  {
+    "question": "Pourquoi le ver de terre est-il utile pour le sol ?",
+    "réponse": "Parce qu’il aère la terre en creusant des galeries et facilite la décomposition des matières organiques."
+  },
+  {
+    "question": "Comment le lombric se nourrit-il ?",
+    "réponse": "Il ingère des particules de sol riches en matière organique."
+  },
+  {
+    "question": "Quelle est la différence entre un carnivore et un herbivore ?",
+    "réponse": "Le carnivore se nourrit d’autres animaux, l’herbivore se nourrit de plantes."
+  },
+  {
+    "question": "Pourquoi dit-on que la chaîne alimentaire commence par un végétal ?",
+    "réponse": "Parce que les végétaux produisent leur propre matière organique par photosynthèse."
+  },
+  {
+    "question": "Quel est le rôle des décomposeurs dans un écosystème ?",
+    "réponse": "Ils transforment la matière organique morte en éléments minéraux."
+  },
+  {
+    "question": "Comment prouver que l’air contient du dioxygène ?",
+    "réponse": "En utilisant un tison allumé qui se ravive au contact du dioxygène."
+  },
+  {
+    "question": "Pourquoi un poisson ne peut-il pas vivre hors de l’eau ?",
+    "réponse": "Parce qu’il possède des branchies qui ne fonctionnent que dans l’eau."
+  },
+  {
+    "question": "Quel est le rôle de la peau chez l’homme ?",
+    "réponse": "Elle protège le corps, permet les échanges (transpiration) et contient des récepteurs sensoriels."
+  },
+  {
+    "question": "Pourquoi les insectes possèdent-ils des trachées ?",
+    "réponse": "Pour faire circuler l’air directement vers leurs cellules sans passer par le sang."
+  },
+  {
+    "question": "Pourquoi certaines bactéries sont-elles utiles dans la nature ?",
+    "réponse": "Elles décomposent les déchets, fertilisent le sol ou permettent la fermentation."
+  },
+  {
+    "question": "Qu’est-ce qu’un fossile ?",
+    "réponse": "C’est une empreinte ou un reste d’être vivant conservé dans les roches."
+  },
+  {
+    "question": "Comment les roches sédimentaires se forment-elles ?",
+    "réponse": "Par accumulation de sédiments issus de l’érosion, compactés et cimentés au fil du temps."
+  },
+  {
+    "question": "Pourquoi les grains de sable sont-ils arrondis ?",
+    "réponse": "À cause de l’usure par frottement pendant leur transport par l’eau ou le vent."
+  },
+  {
+    "question": "Pourquoi les stomates se trouvent-ils surtout sur la face inférieure des feuilles ?",
+    "réponse": "Pour limiter les pertes d’eau par évaporation tout en assurant les échanges gazeux."
+  },
+  {
+    "question": "Comment le dioxyde de carbone entre-t-il dans la feuille ?",
+    "réponse": "Il pénètre par les stomates situés sur l’épiderme inférieur."
+  },
+  {
+    "question": "Qu’ont en commun les tubercules, les rhizomes et les bulbes ?",
+    "réponse": "Ils permettent la reproduction asexuée à partir d’une partie souterraine de la plante."
+  },
+  {
+    "question": "Pourquoi certaines plantes sont-elles multipliées par bouturage ou greffage ?",
+    "réponse": "Pour conserver des caractéristiques identiques à la plante mère (clonage) ou accélérer la production."
+  },
+  {
+    "question": "Quel rôle joue le tube pollinique ?",
+    "réponse": "Il permet au noyau du spermatozoïde de rejoindre l’ovule pour réaliser la fécondation."
+  },
+  {
+    "question": "Pourquoi parle-t-on de reproduction sexuée chez la fougère même sans fleur ?",
+    "réponse": "Parce qu’il y a formation de gamètes mâle et femelle et fécondation."
+  },
+  {
+    "question": "Quel est le rôle des testicules et des ovaires ?",
+    "réponse": "Ils produisent les gamètes et les hormones sexuelles nécessaires à la reproduction."
+  },
+  {
+    "question": "Pourquoi la muqueuse utérine s’épaissit-elle après l’ovulation ?",
+    "réponse": "Pour se préparer à recevoir un éventuel œuf fécondé."
+  },
+  {
+    "question": "Qu’est-ce que la nidation ?",
+    "réponse": "C’est l’implantation de l’œuf fécondé dans la muqueuse utérine."
+  },
+  {
+    "question": "Pourquoi l’albinisme est-il un caractère héréditaire ?",
+    "réponse": "Parce qu’il est présent dès la naissance et transmis de génération en génération."
+  },
+  {
+    "question": "Comment peut-on reconnaître une trisomie 21 sur un caryotype ?",
+    "réponse": "Par la présence de trois chromosomes 21 au lieu de deux."
+  },
+  {
+    "question": "Pourquoi Dolly est-elle considérée comme un clone ?",
+    "réponse": "Parce qu’elle a été produite à partir d’un noyau d’une cellule adulte sans fécondation."
+  },
+  {
+    "question": "Qu’est-ce qu’un être vivant ?",
+    "réponse": "Un être vivant naît, grandit, se nourrit, se reproduit et meurt."
+  },
+  {
+    "question": "Comment les plantes fabriquent-elles leur propre matière ?",
+    "réponse": "Elles utilisent l’eau, les sels minéraux et le dioxyde de carbone grâce à la lumière du soleil lors de la photosynthèse."
+  },
+  {
+    "question": "Quelle est la différence entre un animal herbivore et un carnivore ?",
+    "réponse": "L’herbivore se nourrit de végétaux, le carnivore se nourrit d’autres animaux."
+  },
+  {
+    "question": "Quel est le rôle des racines chez la plante ?",
+    "réponse": "Les racines absorbent l’eau et les sels minéraux nécessaires à la plante."
+  },
+  {
+    "question": "Quels sont les signes de vie d’un ver de terre ?",
+    "réponse": "Il se déplace, réagit à la lumière, se nourrit et se reproduit."
+  },
+  {
+    "question": "Pourquoi les chaînes alimentaires commencent-elles par les végétaux ?",
+    "réponse": "Parce que les végétaux produisent leur propre matière organique à partir de matière minérale et d’énergie lumineuse."
+  },
+  {
+    "question": "Quel est le rôle des décomposeurs dans la nature ?",
+    "réponse": "Ils transforment la matière organique morte en éléments minéraux réutilisables par les plantes."
+  },
+  {
+    "question": "Comment les animaux respirent-ils dans différents milieux ?",
+    "réponse": "Ils utilisent différents organes comme les poumons, les branchies ou les trachées selon leur environnement."
+  },
+  {
+    "question": "Quelle est la fonction des stomates chez les végétaux ?",
+    "réponse": "Ils permettent les échanges gazeux entre la plante et l’air (entrée du CO₂, sortie de l’O₂)."
+  },
+  {
+    "question": "Qu’est-ce qu’un fossile ?",
+    "réponse": "Un fossile est une empreinte ou un reste d’être vivant conservé dans les roches."
+  },
+  {
+    "question": "Comment se forment les roches sédimentaires ?",
+    "réponse": "Elles se forment par accumulation et compactage de sédiments transportés par l’eau ou le vent."
+  },
+  {
+    "question": "Pourquoi les grains de sable sont-ils arrondis ?",
+    "réponse": "À cause de l’usure par frottement pendant leur transport."
+  },
+  {
+    "question": "Comment la lumière influence-t-elle la croissance des plantes ?",
+    "réponse": "Sans lumière, les plantes ne peuvent pas faire la photosynthèse et finissent par dépérir."
+  },
+  {
+    "question": "Qu’est-ce qu’une chaîne alimentaire ?",
+    "réponse": "C’est une suite d’êtres vivants où chacun se nourrit du précédent."
+  },
+  {
+    "question": "Pourquoi dit-on que la matière circule dans la nature ?",
+    "réponse": "Parce que la matière passe des producteurs aux consommateurs, puis revient à la nature grâce aux décomposeurs."
+  },
+  {
+    "question": "Qu’est-ce qu’un nutriment ?",
+    "réponse": "Un nutriment est une substance simple issue de la digestion, directement utilisable par les cellules."
+  },
+  {
+    "question": "Pourquoi les plantes vertes sont-elles autotrophes ?",
+    "réponse": "Parce qu’elles fabriquent leur propre matière organique à partir de matières minérales et de lumière."
+  },
+  {
+    "question": "Quel est le rôle de la photosynthèse ?",
+    "réponse": "Produire de la matière organique (glucose) et du dioxygène à partir du dioxyde de carbone, d’eau et de lumière."
+  },
+  {
+    "question": "Qu’est-ce qu’une reproduction asexuée ?",
+    "réponse": "C’est une reproduction sans fécondation, donnant un individu génétiquement identique au parent."
+  },
+  {
+    "question": "Quels sont les types de reproduction asexuée naturelle chez les plantes ?",
+    "réponse": "Le bouturage naturel via stolons, rhizomes, tubercules ou bulbes."
+  },
+  {
+    "question": "Pourquoi la reproduction sexuée favorise-t-elle la diversité génétique ?",
+    "réponse": "Parce qu’elle résulte de la fusion de deux cellules sexuelles provenant d’individus différents."
+  },
+  {
+    "question": "Quelles sont les conditions nécessaires à la fécondation chez les plantes à fleurs ?",
+    "réponse": "La pollinisation (transport du pollen) et le contact du gamète mâle avec l’ovule."
+  },
+  {
+    "question": "Quel est le rôle des enzymes digestives ?",
+    "réponse": "Transformer les grosses molécules alimentaires en nutriments simples assimilables par l’organisme."
+  },
+  {
+    "question": "Qu’est-ce que l’absorption intestinale ?",
+    "réponse": "Le passage des nutriments de l’intestin grêle vers le sang ou la lymphe."
+  },
+  {
+    "question": "Pourquoi les villosités intestinales sont-elles très nombreuses ?",
+    "réponse": "Pour augmenter la surface d’absorption des nutriments."
+  },
+  {
+    "question": "Quel est le rôle de la respiration cellulaire ?",
+    "réponse": "Fournir de l’énergie à la cellule en dégradant du glucose avec du dioxygène."
+  },
+  {
+    "question": "Quelles sont les étapes du cycle menstruel ?",
+    "réponse": "Phase menstruelle, phase proliférative, ovulation, phase sécrétoire."
+  },
+  {
+    "question": "Qu’est-ce que la nidation ?",
+    "réponse": "C’est l’implantation de l’œuf fécondé dans la muqueuse utérine."
+  },
+  {
+    "question": "Pourquoi l’albinisme est-il héréditaire ?",
+    "réponse": "Parce qu’il est causé par un gène transmis par les parents."
+  },
+  {
+    "question": "Qu’est-ce qu’un caryotype ?",
+    "réponse": "C’est l’ensemble des chromosomes d’un individu classés par paires et par taille."
+  },
+  {
+    "question": "Quelle est la différence entre reproduction sexuée et clonage ?",
+    "réponse": "La reproduction sexuée implique deux parents et crée de la diversité ; le clonage donne un individu identique à un seul parent."
+  },
+  {
+    "question": "Quel est le rôle du système digestif ?",
+    "réponse": "Transformer les aliments complexes en nutriments simples absorbables par l’organisme."
+  },
+  {
+    "question": "Quelle est la fonction des sucs digestifs ?",
+    "réponse": "Ils contiennent des enzymes qui dégradent les macromolécules alimentaires en nutriments."
+  },
+  {
+    "question": "Pourquoi l’intestin grêle est-il très long et replié ?",
+    "réponse": "Pour offrir une grande surface d’absorption des nutriments."
+  },
+  {
+    "question": "Qu’est-ce qu’une alimentation équilibrée ?",
+    "réponse": "C’est une alimentation variée couvrant les besoins en énergie, en matériaux de construction et en protection."
+  },
+  {
+    "question": "Qu’est-ce que la respiration cellulaire ?",
+    "réponse": "C’est un processus par lequel la cellule produit de l’énergie à partir du glucose et du dioxygène."
+  },
+  {
+    "question": "Quel est le rôle des alvéoles pulmonaires ?",
+    "réponse": "Assurer les échanges gazeux entre l’air et le sang : entrée de l’O₂ et sortie du CO₂."
+  },
+  {
+    "question": "Pourquoi le sang est-il rouge ?",
+    "réponse": "À cause de l’hémoglobine contenue dans les globules rouges."
+  },
+  {
+    "question": "Quelle est la différence entre plasma et éléments figurés du sang ?",
+    "réponse": "Le plasma est la partie liquide, les éléments figurés sont les globules rouges, blancs et plaquettes."
+  },
+  {
+    "question": "Pourquoi dit-on que la moelle épinière joue un rôle dans les réflexes ?",
+    "réponse": "Parce qu’elle permet une réponse rapide sans passer par le cerveau."
+  },
+  {
+    "question": "Qu’est-ce qu’un arc réflexe ?",
+    "réponse": "C’est le circuit nerveux emprunté par l’influx lors d’un réflexe : récepteur → moelle → effecteur."
+  },
+  {
+    "question": "Quelle est la différence entre motricité volontaire et réflexe ?",
+    "réponse": "La motricité volontaire passe par le cerveau, le réflexe est automatique et passe par la moelle épinière."
+  },
+  {
+    "question": "Pourquoi les muscles travaillent-ils en paire ?",
+    "réponse": "Parce qu’un muscle ne peut que tirer, donc il faut un muscle antagoniste pour faire le mouvement inverse."
+  },
+  {
+    "question": "Qu’est-ce qu’un micro-organisme ?",
+    "réponse": "Un être vivant invisible à l’œil nu comme les bactéries, virus, champignons microscopiques ou protozoaires."
+  },
+  {
+    "question": "Quelle est la différence entre bactérie et virus ?",
+    "réponse": "La bactérie est une cellule vivante autonome ; le virus a besoin d’une cellule pour se multiplier."
+  },
+  {
+    "question": "Qu’est-ce que l’immunité innée ?",
+    "réponse": "C’est une défense rapide, non spécifique, présente dès la naissance, comme la phagocytose."
+  },
+  {
+    "question": "Qu’est-ce que l’immunité acquise ?",
+    "réponse": "C’est une défense spécifique contre un antigène, mobilisant des lymphocytes et des anticorps."
+  },
+  {
+    "question": "Quel est le principe de la vaccination ?",
+    "réponse": "Stimuler la production de lymphocytes mémoire sans provoquer la maladie."
+  },
+  {
+    "question": "Qu’est-ce qu’un antigène ?",
+    "réponse": "C’est une molécule étrangère à l’organisme qui déclenche une réponse immunitaire."
+  },
+  {
+    "question": "Pourquoi une personne séropositive n’est-elle pas forcément malade ?",
+    "réponse": "Parce que le VIH peut rester latent ; la maladie apparaît quand l’immunité est affaiblie."
+  },
+  {
+    "question": "Pourquoi faut-il respecter les règles de compatibilité sanguine ?",
+    "réponse": "Pour éviter une agglutination des globules rouges qui peut être mortelle."
+  },
+    {
+      "question": "Qu'est-ce qu'un métabolite ?",
+      "réponse": "C'est un nutriment riche en énergie, comme le glucose."
+    },
+    {
+      "question": "Qu'est-ce que le métabolisme ?",
+      "réponse": "C'est l’ensemble des réactions chimiques se déroulant dans la cellule et indispensables à la vie."
+    },
+    {
+      "question": "Qu'est-ce que l'anabolisme ?",
+      "réponse": "C’est l’ensemble des réactions de synthèse, comme la synthèse des protéines à partir d’acides aminés."
+    },
+    {
+      "question": "Qu'est-ce que le catabolisme ?",
+      "réponse": "C’est l’ensemble des réactions de dégradation des nutriments, notamment du glucose."
+    },
+    {
+      "question": "Qu'est-ce que l'hyaloplasme ou cytosol ?",
+      "réponse": "C’est la substance fondamentale du cytoplasme dans laquelle sont noyés les organites."
+    },
+    {
+      "question": "Qu'est-ce qu'une réaction d’oxydo-réduction ?",
+      "réponse": "C’est une réaction avec transfert d’électrons entre un donneur (réducteur) et un accepteur (oxydant)."
+    },
+    {
+      "question": "Qu'est-ce que la glycolyse ?",
+      "réponse": "C’est une suite de réactions chimiques anaérobies dans l’hyaloplasme qui dégradent le glucose."
+    },
+    {
+      "question": "Quelle est la fonction de la mitochondrie ?",
+      "réponse": "C’est l’organite où se déroulent les réactions d’oxydation respiratoire dans la cellule."
+    },
+    {
+      "question": "Qu'est-ce que l’ATP synthase ?",
+      "réponse": "C’est une enzyme qui catalyse la synthèse d’ATP dans la membrane interne des mitochondries."
+    },
+    {
+      "question": "Qu’est-ce que la phosphorylation oxydative ?",
+      "réponse": "C’est la synthèse d’ATP à partir d’ADP, grâce à l’énergie libérée par l’oxydation des donneurs d’électrons."
+    },
+    {
+      "question": "Qu’est-ce que l’oxydation respiratoire ?",
+      "réponse": "C’est la dégradation de l'acide pyruvique dans la mitochondrie avec transfert d’électrons vers l’O2."
+    },
+    {
+      "question": "Qu’est-ce que la fermentation ?",
+      "réponse": "C’est une dégradation incomplète du glucose sans dioxygène, produisant peu d’ATP."
+    },
+    {
+      "question": "Qu’est-ce que la fermentation alcoolique ?",
+      "réponse": "C’est une transformation anaérobie du glucose en alcool dans l’hyaloplasme."
+    },
+    {
+      "question": "Qu’est-ce que la fermentation lactique ?",
+      "réponse": "C’est une transformation anaérobie du glucose en acide lactique dans l’hyaloplasme."
+    },
+    {
+      "question": "Qu’est-ce qu’une décarboxylase ?",
+      "réponse": "C’est une enzyme qui catalyse la perte d’un groupe carboxyle (COOH)."
+    },
+    {
+      "question": "Qu’est-ce qu’une déshydrogénase ?",
+      "réponse": "C’est une enzyme qui transfère un ou plusieurs protons (H+) à un coenzyme comme NAD+ ou FAD."
+    },
+    {
+      "question": "Qu’est-ce que la respiration cellulaire ?",
+      "réponse": "C’est un ensemble de réactions qui extraient l’énergie du glucose pour la convertir en ATP."
+    },
+    {
+      "question": "Quelles sont les trois étapes de la respiration cellulaire ?",
+      "réponse": "1. Glycolyse (cytosol), 2. Cycle de Krebs (matrice mitochondriale), 3. Phosphorylation oxydative (membrane interne)."
+    },
+    {
+      "question": "Qu’est-ce que le cycle de Krebs ?",
+      "réponse": "C’est une série de réactions qui produisent des intermédiaires énergétiques dans la matrice mitochondriale."
+    },
+    {
+      "question": "Qu’est-ce que la chaîne respiratoire ?",
+      "réponse": "C’est un ensemble de transporteurs d’électrons dans la membrane interne mitochondriale permettant la synthèse d’ATP."
+    },
+    {
+      "question": "Qu’est-ce que le potentiel redox ?",
+      "réponse": "C’est une mesure de la capacité d’un couple redox à céder ou capter des électrons."
+    },
+    {
+      "question": "Quel est le rôle des sphères pédonculées ?",
+      "réponse": "Ce sont des ATP synthétases qui utilisent le gradient de H+ pour produire de l’ATP."
+    },
+    {
+      "question": "Qu'est-ce qu'une fibre musculaire ?",
+      "réponse": "C’est une cellule géante plurinucléée qui contient plusieurs myofibrilles."
+    },
+    {
+      "question": "Qu'est-ce qu'une myofibrille musculaire ?",
+      "réponse": "C’est l’unité principale du muscle, formée de la succession de plusieurs sarcomères. Les myofibrilles sont regroupées sous forme de faisceaux, chaque faisceau formant une fibre musculaire."
+    },
+    {
+      "question": "Qu'est-ce qu’un sarcomère ?",
+      "réponse": "C’est la zone comprise entre deux stries Z successives, représentant la plus petite unité structurelle et fonctionnelle du muscle."
+    },
+    {
+      "question": "Qu'est-ce que les myofilaments d'actine ?",
+      "réponse": "Ce sont les filaments fins présents dans la myofibrille, formés de deux types de protéines : actine et troponine/tropomyosine. L’actine est en double chaîne enroulée sur elle-même."
+    },
+    {
+      "question": "Qu'est-ce que les myofilaments de myosine ?",
+      "réponse": "Ce sont les filaments épais de la myofibrille, formés d’un seul type de protéine : la myosine, avec une tête et une queue."
+    },
+    {
+      "question": "Qu'est-ce que la disque claire ?",
+      "réponse": "Aussi appelée disque I (de isotrope), elle est la zone claire contenant uniquement les filaments d’actine, traversée par la strie Z."
+    },
+    {
+      "question": "Qu'est-ce que la disque sombre ?",
+      "réponse": "Aussi appelée disque A (de anisotrope), c’est la zone sombre contenant les filaments d’actine et de myosine, et la bande H en son centre."
+    },
+    {
+      "question": "Qu'est-ce que la bande H ?",
+      "réponse": "C’est une bande claire au centre du disque A, contenant uniquement des myofilaments épais de myosine."
+    },
+    {
+      "question": "Qu'est-ce que le réticulum sarcoplasmique ?",
+      "réponse": "C’est un ensemble de citernes contenant du calcium indispensable à la contraction musculaire."
+    },
+    {
+      "question": "Qu'est-ce que le tétanos ?",
+      "réponse": "C’est une contraction musculaire induite par des excitations successives rapprochées dans le temps."
+    },
+    {
+      "question": "Qu'est-ce que le tétanos parfait ?",
+      "réponse": "C’est une contraction continue du muscle sans phase de relâchement entre les excitations successives."
+    },
+    {
+      "question": "Qu'est-ce que le tétanos imparfait ?",
+      "réponse": "C’est une contraction musculaire soumise à des excitations successives trop espacées pour maintenir une contraction continue."
+    },
+    {
+      "question": "Qu'est-ce que le renouvellement de l’ATP ?",
+      "réponse": "C’est la synthèse d’ATP à partir d’ADP pour compenser la consommation d’ATP lors des contractions musculaires. Elle peut être assurée par la respiration, la fermentation lactique ou la créatine phosphate."
+    }
+  ]
+  
